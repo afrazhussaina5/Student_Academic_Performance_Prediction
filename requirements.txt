@@ -1,8 +1,36 @@
-pandas==2.2.2
+# Student Academic Performance Prediction - Requirements
+# Major Project | Machine Learning | Regression Analysis
+
+# ── Core Data Science ──────────────────────────────────────────────────────────
 numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+
+# ── Machine Learning ───────────────────────────────────────────────────────────
+scikit-learn==1.4.2
+xgboost==2.0.3
+lightgbm==4.3.0
+
+# ── Model Persistence ──────────────────────────────────────────────────────────
+joblib==1.4.0
+
+# ── Visualization ──────────────────────────────────────────────────────────────
 matplotlib==3.8.4
 seaborn==0.13.2
-scikit-learn==1.4.2
-joblib==1.4.0
+
+# ── Model Explainability (SHAP) ────────────────────────────────────────────────
 shap==0.45.1
-Flask==3.0.3
+
+# ── Jupyter Notebook ───────────────────────────────────────────────────────────
+jupyter==1.0.0
+ipykernel==6.29.4
+nbformat==5.10.4
+
+# ── Reporting & Export ─────────────────────────────────────────────────────────
+fpdf2==2.7.9
+python-pptx==0.6.23
+openpyxl==3.1.2
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+tqdm==4.66.4
+python-dotenv==1.0.1
